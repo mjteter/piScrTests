@@ -221,6 +221,6 @@ class KitchenSinkScene(ui.Scene):
 
 
 if __name__ == '__main__':
-    ui.init('pygameui - Kitchen Sink')
+    ui.init('pygameui - Kitchen Sink', (320, 240))
     ui.scene.push(KitchenSinkScene())
     ui.run()
