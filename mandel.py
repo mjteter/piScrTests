@@ -19,3 +19,5 @@ lcd.set_at((20, 10), WHITE)
 lcd.set_at((30, 10), WHITE)
 lcd.set_at((40, 100), WHITE)
 pygame.display.update()
+
+sleep(5)
