@@ -26,7 +26,7 @@ font_big = pygame.font.Font(None, 100)
 while True:
     # Scan the buttons
     for ii in range(0, 255):
-        lcd.fill((ii, (ii * 2) % 255, (ii * 4) % 255))
+        lcd.fill((ii, (ii * 2) % 255, (ii * 3) % 255))
         pygame.display.update()
     # for (k,v) in button_map.items():
         # if GPIO.input(k) == False:
@@ -35,4 +35,4 @@ while True:
         #     rect = text_surface.get_rect(center=(160,120))
         #     lcd.blit(text_surface, rect)
         #     pygame.display.update()
-    sleep(0.1)
+    sleep(0.04)
