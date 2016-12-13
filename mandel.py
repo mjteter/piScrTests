@@ -23,7 +23,7 @@ for xpix in range(320):
         y = -1 + (2 * (float(ypix) / 240.0))
         z = complex(x, y)
         c = z
-
+        Colour = (0, 0, 0)
         for iteration in xrange(MaxIteration):
             z = (z * z) + c
             if abs(z) > 2.236:
