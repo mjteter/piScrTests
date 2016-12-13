@@ -37,7 +37,7 @@ for xpix in range(320):
         lcd.set_at((xpix, ypix), Colour)
 
         pygame.display.update()
-    print "row " + xpix + "done"
+    print "row " + str(xpix) + "done"
 # lcd.set_at((0, 10), WHITE)
 # lcd.set_at((10, 10), WHITE)
 # lcd.set_at((30, 240), WHITE)
